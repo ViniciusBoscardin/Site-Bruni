@@ -1,0 +1,451 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.nav-bar {
+  width: 18%;
+  height: 100vh;
+  margin-right: 0%;
+  left: 0%;
+  top: 1063.25%;
+  background-color: #010102;
+}
+
+.nav-bar img {
+  margin-left: 14%;
+  padding: 0;
+}
+
+.links-box {
+  position: absolute;
+  width: 10%;
+  left: 5%;
+  top: 40%;
+}
+
+.links-box li {
+  margin-bottom: 15%;
+  list-style: none;
+}
+
+.links-box a:hover {
+  transition: all 0.2s ease-out;
+  color: #9eec00;
+}
+
+.links-box a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nigga-social {
+  left: 9.38%;
+  right: 9.37%;
+  top: 9.37%;
+  bottom: 9.38%;
+  margin-left: 10%;
+  float: left;
+  margin-top: 50vh;
+  align-items: center;
+}
+
+.nigga-social ion-icon {
+  width: 25px;
+  height: 50px;
+  margin-left: 15px;
+}
+
+.nigga-social li {
+  display: inline-block;
+}
+
+.nigga-social a:hover {
+  transition: all 0.2s ease-out;
+  color: #fff;
+}
+
+.nigga-social a {
+  color: #9eec00;
+}
+
+.signature {
+  color: #fff;
+}
+
+.signature p {
+  text-align: center;
+}
+
+.signature h5 {
+  margin-left: 40px;
+}
+
+.container {
+  width: 897px;
+  height: 528px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -15%;
+  margin-left: -20%;
+  border-radius: 50px;
+  border-color: #9eec00;
+  border-style: solid;
+}
+
+.container img {
+  margin-left: 5%;
+}
+
+.barra {
+  width: 7px;
+  height: 63px;
+  background-color: #9eec00;
+  top: 50%;
+  left: 50%;
+  margin-top: -8%;
+  margin-left: 8%;
+}
+
+.g-bruni {
+  top: 50%;
+  left: 55%;
+  margin-top: -7%;
+  margin-left: 10%;
+}
+
+.ux-ui {
+  top: 50%;
+  left: 55%;
+  margin-top: 0%;
+  margin-left: 15%;
+}
+
+.bem-vindo {
+  font-size: 500%;
+  top: 70%;
+  left: 80%;
+  margin-top: -40%;
+  margin-left: 40%;
+  font-weight: bolder;
+  box-sizing: border-box;
+}
+
+.descrição {
+  margin-top: 0%;
+  margin-left: 40%;
+  top: 70%;
+  left: 88%;
+  font-size: 90%;
+}
+
+.bora {
+  margin-top: 5%;
+  margin-left: 55%;
+  font-weight: normal;
+  font-size: 115%;
+}
+
+.span-bold {
+  font-weight: bold;
+}
+
+.barra-horizontal {
+  width: 225px;
+  height: 15px;
+  background-color: #9eec00;
+  margin-top: -1.3%;
+  margin-left: 54%;
+}
+
+.btn {
+  width: 137.87px;
+  height: 33px;
+  font-size: 13px;
+  border: none;
+  border-radius: 15px;
+  color: #fff;
+  background-color: black;
+}
+
+.btn-2 {
+  width: 137.87px;
+  height: 33px;
+  font-size: 13px;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  background-color: #9eec00;
+}
+
+.btn-2:hover {
+  transition: all 0.2s ease-out;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: all 0.2s ease-out;
+  color: #9eec00;
+  cursor: pointer;
+}
+
+/* UTILITARIAS */
+
+.mar-top-30 {
+  margin-top: 2%;
+}
+
+.mar-left-30 {
+  margin-left: 51%;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.bg-grey {
+  background-color: rgb(41, 41, 41);
+}
+
+.nigga-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
+
+.nigga-title-light {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+.nigga-text-green {
+  color: #9eec00;
+}
+
+.nigga-mar-top-15 {
+  margin-top: 15px;
+}
+
+.nigga-mar-right-15 {
+  margin-right: 15px;
+}
+
+.nigga-mar-bottom-15 {
+  margin-bottom: 15px;
+}
+
+.nigga-mar-left-15 {
+  margin-left: 15px;
+}
+
+.nigga-mar-top-30 {
+  margin-top: 30px;
+}
+
+.nigga-mar-right-30 {
+  margin-right: 30px;
+}
+
+.nigga-mar-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.nigga-mar-left-30 {
+  margin-left: 30px;
+}
+
+/*MODAL*/
+
+.modal-container {
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 2000;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container.mostrar {
+  display: flex;
+}
+
+.modal {
+  width: 200px;
+  height: 528px;
+  background: rgba(0, 0, 0, 0.5);
+  min-width: 300px;
+  border-radius: 50px;
+  border-color: rgba(0, 0, 0, 0.8);
+  top: 15%;
+  left: 30%;
+  margin-top: -33%;
+  margin-left: -53%;
+  border-radius: 50px;
+  position: relative;
+}
+
+@keyframes modal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -60px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.mostrar .modal {
+  animation: modal 0.3s;
+}
+
+section h3 {
+  margin-left: 35%;
+  margin-top: 15%;
+}
+
+input {
+  color: #fff;
+}
+
+textarea {
+  color: #fff;
+}
+
+fieldset {
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+fieldset:nth-child(1) {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+fieldset:nth-child(2) {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+fieldset:nth-child(3) {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+fieldset:nth-child(4) {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+fieldset:last-child {
+  display: flex;
+  margin-left: 2%;
+  margin-top: 5%;
+}
+
+.projeto {
+  width: 9vw;
+  height: 20vh;
+  text-indent: 5px;
+  background-color: rgb(41, 41, 41);
+}
+
+.fechar {
+  border-radius: 50%;
+  width: 7%;
+  background-color: black;
+  border: none;
+  color: #9eec00;
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 5%;
+}
+
+.fechar:hover {
+  transition: all 0.2s ease-out;
+  color: gray;
+  cursor: pointer;
+}
+
+.box-port {
+  width: 718px;
+  height: 326px;
+  border-radius: 50px;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+
+.box-port img {
+  margin-left: 10%;
+  margin-top: 8%;
+  border-radius: 25%;
+}
+
+.barra-vertical {
+  width: 7px;
+  height: 216px;
+  background-color: #424242;
+  margin-left: 50%;
+  margin-top: -30%;
+}
+
+.easymob {
+  margin-left: 55%;
+  margin-top: -30%;
+}
+
+.ux-ui-port {
+  margin-left: 55%;
+  margin-top: -30%;
+  margin-top: -0%;
+  color: #fff;
+  font-weight: normal;
+  font-size: small;
+}
+
+.easy-descricao {
+  color: #fff;
+  box-sizing: border-box;
+  font-size: small;
+  margin-left: 55%;
+  margin-top: -30%;
+  margin-top: -0%;
+}
+
+.btn-ver-mais {
+  width: 137.87px;
+  height: 33.91px;
+  background-color: #9eec00;
+  color: #010102;
+  margin-left: 55%;
+  margin-top: -30%;
+  margin-top: 4%;
+  border-radius: 30px;
+  border: none;
+}
+
+.btn-ver-mais:hover {
+  transition: all 0.2s ease-out;
+  color: white;
+}
